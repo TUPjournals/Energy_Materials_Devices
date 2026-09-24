@@ -1,0 +1,1308 @@
+[
+  {
+    "doi": "10.26599/EMD.2025.9370076",
+    "title": "The transformative potential of cellulose in energy storage systems",
+    "authors": [
+      {
+        "name": "Longjun Chang"
+      },
+      {
+        "name": "Zhaoxin Li"
+      },
+      {
+        "name": "Zhiyuan Yan"
+      },
+      {
+        "name": "Qing Li"
+      }
+    ],
+    "keywords": [
+      "cellulose",
+      "electrode",
+      "solid electrolyte interphase",
+      "separator",
+      "electrolyte"
+    ],
+    "abstract": "Cellulose-based materials have attracted growing interest in the development of advanced energy storage systems owing to their intrinsic sustainability, tunable physicochemical properties, and structural versatility. This review systematically summarizes the key features of cellulose from the perspectives of synthesis, physicochemical characteristics, and structural design, highlighting its unique functionality and adaptability. Furthermore, the roles of cellulose in four critical battery components, i.e., electrode, solid electrolyte interphase, separator, and electrolyte, are comprehensively discussed, emphasizing the properties aligning with the specific requirements of each component. Finally, potential research directions are proposed to guide future development. This review provides a comprehensive framework for understanding the transformative potential of cellulose in sustainable electrochemical energy storage systems as well as a guideline for future studies.",
+    "volume": "3",
+    "issue": "4",
+    "firstpage": "9370076",
+    "lastpage": "",
+    "publication_date": "2025/11/3",
+    "online_date": "2025/11/3",
+    "received": "24 July 2025",
+    "revised": "03 September 2025",
+    "accepted": "05 September 2025",
+    "published": "",
+    "type": "Review",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370076.pdf",
+    "internal_id": "1965319644429942785",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370076",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370080",
+    "title": "Insights on lean-water hydrogel electrolyte designs for next-generation zinc batteries",
+    "authors": [
+      {
+        "name": "Hongbo Wei"
+      },
+      {
+        "name": "Baohua Li"
+      },
+      {
+        "name": "Qi Liu"
+      }
+    ],
+    "keywords": [
+      "lean-water hydrogel",
+      "zinc-ion batteries",
+      "hydrogel electrolyte",
+      "hydrogel battery"
+    ],
+    "abstract": "Owing to their intrinsic safety and low cost, aqueous zinc-ion batteries (AZIBs) have emerged as promising large-scale energy storage devices. Hydrogel electrolytes have been extensively studied because of their superior electrochemical performance their ability to endow AZIBs with excellent flexibility. However, traditional hydrogel electrolytes typically suffer from a narrow electrochemical stability potential window (ESPW) and poor cycling stability, primarily due to their high water content. In recent years, lean-water hydrogel electrolytes (L-WHEs) have been developed to address these issues. By confining free water molecules and regulating ion transport within the hydrogel network, L-WHEs can efficiently suppress side reactions, widen the ESPW, and enhance interfacial stability. This review systematically discusses the fundamental principles of L-WHEs, current strategies for developing practical L-WHEs, and recent research progress. Finally, future prospect and challenges in the development of high-performance L-WHEs are outlined.",
+    "volume": "3",
+    "issue": "4",
+    "firstpage": "9370080",
+    "lastpage": "",
+    "publication_date": "2025/12/19",
+    "online_date": "2025/12/19",
+    "received": "26 August 2025",
+    "revised": "09 October 2025",
+    "accepted": "13 October 2025",
+    "published": "",
+    "type": "Review",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370080.pdf",
+    "internal_id": "1977649563520471042",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370080",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370073",
+    "title": "Development of a magnesium silicate nanotube coating for enhanced zinc-ion transport in dendrite-free zinc anodes",
+    "authors": [
+      {
+        "name": "Mengyu Rong"
+      },
+      {
+        "name": "Xianfang Tan"
+      },
+      {
+        "name": "Na Gao"
+      },
+      {
+        "name": "Yifu Zhang"
+      },
+      {
+        "name": "Yang Wang"
+      },
+      {
+        "name": "Changgong Meng"
+      }
+    ],
+    "keywords": [
+      "magnesium silicate",
+      "nanotubes",
+      "artificial interfacial layer",
+      "ion confinement effect",
+      "aqueous zinc-ion hybrid capacitors"
+    ],
+    "abstract": "Aqueous zinc-based energy storage systems offer high theoretical specific capacity, low cost, intrinsic safety, and environmental compatibility, positioning them as promising candidates for next-generation energy storage and conversion technologies. However, issues such as zinc dendrite growth, hydrogen evolution reaction (HER), and surface passivation hinder their practical deployment. To address these challenges, a hollow nanotubular magnesium silicate (denoted MgSi) interfacial layer was constructed on the zinc metal anode (Zn@MgSi). The unique layer structure and negatively charged surface of MgSi facilitate the desolvation of [Zn(H2O)6]2+ by stripping water molecules, while temporarily immobilizing Zn2+ to suppress random diffusion. The combined effects of the electric field-guided Zn2+ distribution and rapid ion transport through the layer structure co-regulate Zn2+ flux, leading to uniform, dendrite-free zinc deposition. Consequently, the Zn@MgSi symmetric cell demonstrates a high Zn2+ transference number (0.64), extended cycling life exceeding 1600 h at 1 mA cm−2, and stable operation for 200 h at 5 mA cm−2. Furthermore, zinc-ion hybrid capacitors employing Zn@MgSi electrodes exhibit excellent cycling stability over 5000 cycles. This work highlights the efficacy of artificial interfacial layers in stabilizing zinc metal anodes and provides valuable insights into the development of advanced aqueous zinc-ion energy storage systems.",
+    "volume": "3",
+    "issue": "4",
+    "firstpage": "9370073",
+    "lastpage": "",
+    "publication_date": "2025/10/24",
+    "online_date": "2025/10/24",
+    "received": "31 May 2025",
+    "revised": "14 July 2025",
+    "accepted": "18 July 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370073.pdf",
+    "internal_id": "1947095334053814273",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370073",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370077",
+    "title": "Modulating interphasial chemistry through PEI/PI separator coating for thermally robust high-voltage batteries",
+    "authors": [
+      {
+        "name": "Shuofeng Jian"
+      },
+      {
+        "name": "Jiahui Zeng"
+      },
+      {
+        "name": "Chen Guo"
+      },
+      {
+        "name": "Zhaohuang Zhan"
+      },
+      {
+        "name": "Yumeng Lan"
+      },
+      {
+        "name": "Zu-Wei Yin"
+      },
+      {
+        "name": "Hai Lin"
+      },
+      {
+        "name": "Luyi Yang"
+      },
+      {
+        "name": "Feng Pan"
+      }
+    ],
+    "keywords": [
+      "high-voltage batteries",
+      "high-temperature performance",
+      "separators",
+      "interfacial solvation structure",
+      "cathode–electrolyte interphase"
+    ],
+    "abstract": "Lithium-ion batteries are essential for modern energy storage, yet achieving simultaneous high-temperature and high-voltage operation remains challenging due to interfacial compatibility. In this study, we introduce a polyetherimide (PEI)–polyimide (PI) functional coating on the separator that enhances wettability, thermal stability, and mechanical strength, while markedly improving cathode stability under harsh conditions. By integrating theoretical calculations with experimental validation, we demonstrate that the PEI/PI coating modulates the solvation structure of lithium-ions, thereby facilitating the interfacial desolvation process. More importantly, the PEI/PI layer regulates electrolyte decomposition at the interface, promoting the formation of a uniform and thermally stable cathode–electrolyte interphase. Consequently, LiCoO2 cathodes exhibit improved cycling performance at 60°C. Overall, this work underscores the pivotal role of separator coatings in governing interfacial chemistry and provides a viable strategy for designing high-performance lithium-ion batteries capable of enduring both high temperatures and high",
+    "volume": "3",
+    "issue": "4",
+    "firstpage": "9370077",
+    "lastpage": "",
+    "publication_date": "2025/11/4",
+    "online_date": "2025/10/24",
+    "received": "15 August 2025",
+    "revised": "25 August 2025",
+    "accepted": "05 September 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370077.pdf",
+    "internal_id": "1966307047198167042",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370077",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370079",
+    "title": "Boosting the high voltage performance of spinel LiNi0.5Mn1.5O4 cathode through an all-fluorinated electrolyte",
+    "authors": [
+      {
+        "name": "Lulu Ren"
+      },
+      {
+        "name": "Peichao Zou"
+      },
+      {
+        "name": "Huolin Xin"
+      }
+    ],
+    "keywords": [
+      "all-fluorinated electrolyte",
+      "high voltage cathode",
+      "spinel oxide",
+      "lithium metal batteries"
+    ],
+    "abstract": "Spinel LiNi0.5Mn1.5O4 (LNMO) is a promising high-voltage cathode material for the next generation lithium metal batteries because of its high operating voltage plateau (4.7 V vs. Li+/Li), high theoretical specific capacity (147 mAh/g), relatively low cost and environmentally benign properties. Despite promising, the commercialization of LNMO cathodes is hindered by its electrochemical instability using conventional carbonate electrolytes, resulting in lower Coulombic efficiency and poor cycling stability. Herein, we adopt an all-fluorinated electrolyte (AFE) with a wide electrochemical stability window for Li//LNMO cells. Compared to conventional carbonate electrolytes, AFE significantly improves the discharge capacity and rate performance of Li//LNMO cells at various cut-off voltages and temperatures, attributed to the formation of a robust cathode–electrolyte interphase (CEI) layer. Specifically, the resultant Li//AFE//LNMO cells deliver a discharge capacity of 131.7 mAh/g with 84.1% capacity retention after 250 cycles at a charge cut-off voltage of 4.9 V, while it sustains only 114.8 mAh/g with 81.9% capacity retention for the cell using a conventional carbonate electrolyte. The influence of charge/discharge rate and temperature on the performance is also evaluated. Overall, this study presents a facile approach to promote the commercialization of high-voltage LNMO cathodes.",
+    "volume": "3",
+    "issue": "4",
+    "firstpage": "9370079",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/12/1",
+    "received": "12 August 2025",
+    "revised": "29 September 2025",
+    "accepted": "03 October 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370079.pdf",
+    "internal_id": "1978357598144434177",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370079",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370081",
+    "title": "CMC–Zn hydrogel electrolyte with self-releasing Zn2+ achieves long cycle stability in aqueous zinc ion batteries",
+    "authors": [
+      {
+        "name": "Nannan Zhong"
+      },
+      {
+        "name": "Ning Cao"
+      },
+      {
+        "name": "Xinhui Chi"
+      },
+      {
+        "name": "Lin Yang"
+      },
+      {
+        "name": "Liya A"
+      },
+      {
+        "name": "Boyuan Liu"
+      },
+      {
+        "name": "Jingyi Guan"
+      },
+      {
+        "name": "Xiaobei Zang"
+      }
+    ],
+    "keywords": [
+      "CMC–Zn hydrogel",
+      "self-releasing Zn2+",
+      "long cycle life",
+      "aqueous zinc-ion battery"
+    ],
+    "abstract": "Zinc-ion batteries (ZIBs) have garnered significant interest owing to their intrinsic safety, environmental compatibility, and low cost. However, nonuniform Zn deposition and parasitic side reactions during cycling lead to rapid capacity decay and potential short-circuiting. To address these challenges, we developed a carboxymethyl cellulose–zinc (CMC–Zn) hydrogel electrolyte with self-release capability using a metal–ion crosslinking approach. The dynamically reversible CMC–Zn network continuously supplies active Zn2+ during cycling, compensating for electrode consumption in real time. Abundant carboxylate and hydroxyl groups regulate uniform zinc nucleation and growth, while the hydrogen-bonding network synergistically suppresses side reactions, as reflected by a low hydrogen-evolution potential (−0.281 V) and reduced corrosion current density (0.03 mA cm−2). With these advantages, Zn||Zn symmetric cells achieve an ultralong lifespan of 6,400 h at 0.5 mA cm−2, and Zn||Cu half-cells deliver a stable coulombic efficiency of 99.1% over 4,200 cycles. In full-cell testing, self-released Zn2+ contributes 29% of the overall capacity, enabling Zn||PANI cells to retain 75% capacity after 2,000 cycles and exhibit a rate-performance recovery of 97.4%. A corresponding flexible ZIB maintains stable operation under various deformation conditions, highlighting the strong potential of CMC–Zn hydrogel electrolytes for next-generation flexible energy-storage devices.",
+    "volume": "3",
+    "issue": "4",
+    "firstpage": "9370081",
+    "lastpage": "",
+    "publication_date": "2025/12/25",
+    "online_date": "2025/12/22",
+    "received": "16 September 2025",
+    "revised": "07 November 2025",
+    "accepted": "14 November 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370081.pdf",
+    "internal_id": "1990608314481344514",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370081",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370074",
+    "title": "Themed issue on “safety and durability of energy materials and devices”",
+    "authors": [
+      {
+        "name": "Jun Xu"
+      },
+      {
+        "name": "Bingqing Wei"
+      }
+    ],
+    "keywords": [],
+    "abstract": "",
+    "volume": "3",
+    "issue": "3",
+    "firstpage": "9370074",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/25",
+    "received": "",
+    "revised": "",
+    "accepted": "19 September 2025",
+    "published": "",
+    "type": "Editorial",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370074.pdf",
+    "internal_id": "1970743753003573249",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370074",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370054",
+    "title": "Detailed computational modeling of crack patterns of silicon-based anode sheet in lithium-ion batteries upon mechanical stress",
+    "authors": [
+      {
+        "name": "Yuzuki Kawashima"
+      },
+      {
+        "name": "Kazuma Ogata"
+      },
+      {
+        "name": "Yuto Shibayama"
+      },
+      {
+        "name": "Aoi Takagi"
+      },
+      {
+        "name": "Akio Yonezu"
+      },
+      {
+        "name": "Jun Xu"
+      }
+    ],
+    "keywords": [
+      "lithium-ion battery (LIB)",
+      "microcracking",
+      "crack criteria",
+      "finite element method (FEM)",
+      "Si-based anode",
+      "binder"
+    ],
+    "abstract": "Silicon (Si)-based anodes, where Si serves as the active material, have garnered significant attention due to their potential to achieve high electric capacity in lithium-ion batteries (LIBs). A key challenge with Si-based anodes is their susceptibility to create in-plane cracks caused by stresses from the manufacturing process and cyclic charging, which ultimately shortens battery life and reduces the overall electrochemical capacity. To address this issue, a refined microstructural design of the active material layer is in pressing need to enhance both the performance and longevity of LIBs. We successfully applied the Oyane failure criterion, which models ductile failure under stress triaxiality, to simulate crack initiation and propagation in the binder matrix containing Si particles in the finite element modeling. Given the non-linear plastic deformation of the binder, this criterion was formulated based on cumulative strain increments. The computational results of microcrack formation within the active material layer under uniaxial tension were then validated by the experimental observations. Furthermore, we developed several models with varied particle arrangements, comparing each simulated crack path to actual microstructural images obtained via scanning electron microscopy. The findings confirm the accuracy of the model, underlying its promising application in optimizing the microstructure of Si-based anodes for enhanced LIB performance and durability.",
+    "volume": "3",
+    "issue": "3",
+    "firstpage": "9370054",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/2/17",
+    "received": "15 November 2024",
+    "revised": "10 December 2024",
+    "accepted": "30 December 2024",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370054.pdf",
+    "internal_id": "1873979359712866305",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370054",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370066",
+    "title": "Regulating the coordination of solvent molecules with K salts for non-flammable and durable potassium-ion batteries with all-aluminum current collectors",
+    "authors": [
+      {
+        "name": "Yishuo Li"
+      },
+      {
+        "name": "Xinyang Zhang"
+      },
+      {
+        "name": "Wenjun Cai"
+      },
+      {
+        "name": "Xiaojuan Chen"
+      },
+      {
+        "name": "Fei Xie"
+      },
+      {
+        "name": "Dexin Zhu"
+      },
+      {
+        "name": "Lei Qin"
+      }
+    ],
+    "keywords": [
+      "interfacial chemistry",
+      "solvation structure",
+      "potassium battery",
+      "non-flammability",
+      "aluminum current collector"
+    ],
+    "abstract": "The full utilization of affordable potassium-ion batteries (PIBs) based on all-aluminum current collectors is hindered by low specific energy, limited lifespan, and safety concerns, primarily due to the lack of suitable electrolytes for high-capacity electrodes. This work introduces new molecular insights, from bulk solvation chemistry to interfacial behaviors, for designing compatible electrolytes. Fluorinated triethyl phosphate (FTEP) of tris(2,2,2-trifluoroethyl) phosphate was strategically selected as a low-polarity solvating solvent to create an anion-rich solvation sheath, albeit with reduced ion mobility at moderate concentration (1.0 mol·L−1). The deficiency of solvating-solvent molecules in the primary solvation sheath facilitates the formation of a protective layer derived from bis(fluorosulfonyl)imide anion decomposition, ultimately inhibiting undesirable side reactions at electrode/electrolyte interfaces. Moreover, FTEP as the sole solvating solvent endows the electrolyte with exceptional flame retardancy. The results provide crucial insights into the role of solvation chemistry on solvation structure and interfacial transport dynamics, critical for advancing the development of compatible electrolytes for high-performance PIBs.",
+    "volume": "3",
+    "issue": "3",
+    "firstpage": "9370066",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/6/16",
+    "received": "21 February 2025",
+    "revised": "11 May 2025",
+    "accepted": "13 May 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370066.pdf",
+    "internal_id": "1922541547234623489",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370066",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370067",
+    "title": "Interface engineering for silicon/carbon composite anode in all-solid-state batteries",
+    "authors": [
+      {
+        "name": "Xiang Gao"
+      },
+      {
+        "name": "Linan Jia"
+      },
+      {
+        "name": "Xi Zhang"
+      }
+    ],
+    "keywords": [
+      "All-solid-state battery",
+      "SiO/carbon composite anode",
+      "Interface treatment",
+      "Multiphysics modeling"
+    ],
+    "abstract": "Silicon-based anode is a promising candidate for all-solid-state batteries (ASSBs). However, it must be further improved because of its tremendous volume change. In this study, various interface treatment strategies for SiO/carbon composite anodes in ASSBs were investigated using a multiphysics modeling framework. By evaluating the effects of active (carbon) and inactive coating materials, as well as the geometric and mechanical parameters, this research provides critical insights into optimizing their electrochemical performance and mechanical stability. Computational results indicate that carbon coatings can greatly enhance lithiation kinetics by regulating the interfacial electrochemical potential gradients, reducing the residual lithium concentration, and homogenizing the lithium-ion distribution compared with uncoated or inactive-coated configurations. In addition, thinner carbon coatings further improve capacity retention and stress management by balancing shorter lithium diffusion pathways with mitigated interfacial stress accumulation. Despite their ability to mechanically stabilize the anode, inactive coatings exhibit tradeoffs between lithium transport kinetics and stress modulation, with optimal performance achieved at lower Young’s moduli. Mechanical analyses highlight distinct failure mechanisms at the anode–electrolyte (shear driven) and particle-coating (tension driven) interfaces, emphasizing the need for tailored adhesion strategies. These findings provide actionable guidelines for designing robust SiO-based anodes, emphasizing the interplay among electrochemical efficiency, stress regulation, and interfacial durability in ASSBs.",
+    "volume": "3",
+    "issue": "3",
+    "firstpage": "9370067",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/8/11",
+    "received": "12 May 2025",
+    "revised": "20 May 2025",
+    "accepted": "29 May 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370067.pdf",
+    "internal_id": "1928330151722487809",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370067",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370078",
+    "title": "Effects of low-temperature pre-cycling on high-temperature cycle life of lithium-ion cells",
+    "authors": [
+      {
+        "name": "Muriel Carter"
+      },
+      {
+        "name": "Pragati Poudel"
+      },
+      {
+        "name": "Takuto Iriyama"
+      },
+      {
+        "name": "Boryann Liaw"
+      },
+      {
+        "name": "Guangsheng Zhang"
+      }
+    ],
+    "keywords": [
+      "lithium-ion battery",
+      "degradation",
+      "low temperature pre-cycling",
+      "lithium plating",
+      "solid-electrolyte interphase",
+      "cell compression"
+    ],
+    "abstract": "Here we report an interesting phenomenon that lithium plating from pre-cycling of Li-ion cells at low temperature could reduce degradation and extend cycle life at high temperature. This study confirmed the phenomenon in both single-layer cells and multi-layer cells. It revealed that compression of the multi-layer cells must be maintained during cycling for the phenomenon to be observed. Without compression, low-temperature pre-cycling would accelerate high-temperature degradation of the multi-layer cells. This finding helped to clarify the contradictions in previous studies on the effects of low-temperature pre-cycling. A comparison between low-temperature pre-cycling with 1C charging and 0.2C charging confirmed that lithium plating from low-temperature pre-cycling is necessary for the observed benefits. Furthermore, post-mortem analysis of single-layer cells showed a thick deposition layer on the anode of pre-cycled cells, which could be attributed to reactions from lithium plating and the electrolyte.",
+    "volume": "3",
+    "issue": "3",
+    "firstpage": "9370078",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/25",
+    "received": "21 August 2025",
+    "revised": "13 September 2025",
+    "accepted": "17 September 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370078.pdf",
+    "internal_id": "1968484657399336962",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370078",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370071",
+    "title": "Decoding “dead Mn” in MnO2 deposition/dissolution chemistry for energetic aqueous batteries: A perspective",
+    "authors": [
+      {
+        "name": "Kai Xie"
+      },
+      {
+        "name": "Penghan Zhu"
+      },
+      {
+        "name": "Daliang Han"
+      },
+      {
+        "name": "Bo Zhang"
+      },
+      {
+        "name": "Xiao Wang"
+      },
+      {
+        "name": "Zhong-Shuai Wu"
+      },
+      {
+        "name": "Zhe Weng"
+      },
+      {
+        "name": "Quan-Hong Yang"
+      }
+    ],
+    "keywords": [
+      "aqueous battery",
+      "failure mechanism",
+      "inactive Mn species",
+      "electron supply",
+      "proton supply"
+    ],
+    "abstract": "Manganese dioxide (MnO2), based on a two-electron-transfer deposition/dissolution chemistry, features an ultrahigh theoretical capacity (616 mAh·g−1), a favorable redox potential (1.23 V vs. the standard hydrogen electrode), inherent nontoxicity, and low cost, making it a promising cathode candidate for high-energy aqueous batteries. However, its practical application is hindered by limited electrochemical reversibility and cycling stability, primarily attributed to the formation and accumulation of electrochemically inactive Mn species commonly known as “dead Mn”. This perspective provides an in-depth analysis of the “dead Mn” dilemma inherent in Mn2+/MnO2 chemistry. First, the fundamental causes of “dead Mn”—insufficient electron supply and imbalanced (insufficient or excessive) proton supply, are systematically analyzed, as they detract from active material utilization, cycle life, and energy density. Then, mitigation strategies are examined from three aspects: preventing “dead Mn” formation caused by insufficient electron supply, mitigating “dead Mn” formation related to imbalanced proton supply, and activating and regenerating existing “dead Mn”. Finally, future research directions are visualized to enhance the practical viability of Mn2+/MnO2 deposition/dissolution chemistry, aiming to catalyze advancements in high-energy aqueous battery systems.",
+    "volume": "3",
+    "issue": "3",
+    "firstpage": "9370071",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/8/27",
+    "received": "14 May 2025",
+    "revised": "08 June 2025",
+    "accepted": "09 June 2025",
+    "published": "",
+    "type": "Perspective",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370071.pdf",
+    "internal_id": "1933457020943974402",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370071",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370072",
+    "title": "Low-temperature solvent evaporation-induced growth of CsPbBr3 single crystals for high-sensitivity X-ray detection",
+    "authors": [
+      {
+        "name": "Shenghui Xie"
+      },
+      {
+        "name": "Dan Yang"
+      },
+      {
+        "name": "Chunyang Li"
+      },
+      {
+        "name": "Jing Wei"
+      },
+      {
+        "name": "Peng Li"
+      },
+      {
+        "name": "Ziwei Lin"
+      },
+      {
+        "name": "Chenyu Shi"
+      },
+      {
+        "name": "Jiahui Zhu"
+      },
+      {
+        "name": "Xueyan Lu"
+      },
+      {
+        "name": "Linghang Wang"
+      },
+      {
+        "name": "Shengying Yue"
+      }
+    ],
+    "keywords": [
+      "CsPbBr3",
+      "perovskite",
+      "phase transition",
+      "theoretical calculations",
+      "single-crystal growth",
+      "X-ray detector"
+    ],
+    "abstract": "All-inorganic CsPbBr3 single crystals have emerged as promising candidates for high-energy radiation detectors owing to their exceptional X-ray absorption capabilities, charge transport properties, and high stability. This study uses first-principles calculations to analyze the structure, band structure, and density of states of different CsPbBr3 phases, demonstrating that the orthorhombic phase of CsPbBr3 single crystals is more suitable for X-ray detector fabrication. A low-temperature solvent evaporation-induced crystallization method was used to fabricate single crystals to prevent defect introduction during phase transitions. After the introduction of NH4SCN additives, the crystalline quality of the CsPbBr3–NH4SCN single crystals was significantly enhanced, with the μτ value and bulk resistivity increasing to 1.3 × 10−2 cm2·V−1 and 6.8 × 1010 Ω·cm, respectively. The ultimately fabricated CsPbBr3–NH4SCN single-crystal X-ray detector achieved a sensitivity level of 2,360.1 μC·Gyair−1·cm−2 and a detection limit as low as 424.1 nGyair·s−1 under an electric field of 20 V·mm−1. Overall, the experimental results provide new insights into the future fabrication of CsPbBr3 single-crystal X-ray detectors.",
+    "volume": "3",
+    "issue": "3",
+    "firstpage": "9370072",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/8/28",
+    "received": "13 June 2025",
+    "revised": "24 June 2025",
+    "accepted": "01 July 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370072.pdf",
+    "internal_id": "1940222665798766593",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370072",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370068",
+    "title": "Advancements in electrode materials for aqueous ammonium-ion batteries",
+    "authors": [
+      {
+        "name": "Zining Li"
+      },
+      {
+        "name": "Liubing Dong"
+      }
+    ],
+    "keywords": [
+      "aqueous batteries",
+      "aqueous ammonium-ion batteries",
+      "electrode materials",
+      "ammonium-ion storage mechanism",
+      "electrochemistry"
+    ],
+    "abstract": "Aqueous ammonium-ion batteries (AAIBs) have emerged as a promising candidate for grid-scale energy storage owing to their intrinsic safety (e.g., dendrite-free and nonflammable), environmental friendliness, and potential for fast charge/discharge capability. Extensive research has been conducted in recent years to explore high-performance ammonium-ion storage materials and the associated electrochemistry to advance the commercialization of AAIBs. Therefore, it is necessary to review the progress in ammonium-ion storage materials and related electrochemical theories to guide further research on AAIBs. Herein, we systematically summarize the advanced electrode materials for AAIBs by introducing the physicochemical characteristics and ammonium-ion storage behaviors of various electrode materials, such as Prussian blue analogs, organic polymers, and metal oxides, discussing feasible material-design strategies to enhance their ammonium-ion storage performance, and outlining the future development prospects of AAIBs. This review aims to provide valuable insights into the design of advanced electrode materials for high-performance AAIBs.",
+    "volume": "3",
+    "issue": "2",
+    "firstpage": "9370068",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/27",
+    "received": "24 April 2025",
+    "revised": "29 May 2025",
+    "accepted": "02 June 2025",
+    "published": "",
+    "type": "Review",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370068.pdf",
+    "internal_id": "1931891117043224578",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370068",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370062",
+    "title": "Unraveling thickness-dependent lithiation behaviors of boride films for all-solid-state thin-film lithium batteries",
+    "authors": [
+      {
+        "name": "Jie Lin"
+      },
+      {
+        "name": "Wenbin Wu"
+      },
+      {
+        "name": "Jie Zhu"
+      },
+      {
+        "name": "Qing Luo"
+      },
+      {
+        "name": "Laisen Wang"
+      },
+      {
+        "name": "C. Buddie Mullins"
+      },
+      {
+        "name": "Dong-Liang Peng"
+      }
+    ],
+    "keywords": [
+      "thickness",
+      "voltage plateau",
+      "cycling stability",
+      "boride",
+      "thin-film lithium battery"
+    ],
+    "abstract": "The energy density of thin-film lithium batteries (TFLBs) is predominantly determined by the average voltage and specific capacity, however, the mechanism of regulating the voltage plateaus of the film electrodes is not well understood. In this study, three boride films (Co–B, Fe–B, and Co–Fe–B alloys) with different thicknesses were fabricated to enhance the specific capacity and voltage stability of TFLBs. By analyzing the cycling performance, redox peak evolution, and capacitive contribution, the thickness-dependent lithiation behavior of the thin/thick films was elucidated. Theoretical simulations and electrochemical analysis were conducted to investigate how the lithiation behaviors affected the voltage profiles of the film electrodes. In addition, the various-thickness CoB films were compared in all-solid-state TFLBs, demonstrating the universality and practicability of this simple regulation strategy to develop high-performance energy storage devices.",
+    "volume": "3",
+    "issue": "2",
+    "firstpage": "9370062",
+    "lastpage": "",
+    "publication_date": "2025/6/13",
+    "online_date": "2025/6/11",
+    "received": "28 February 2025",
+    "revised": "06 April 2025",
+    "accepted": "11 April 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370062.pdf",
+    "internal_id": "1911602134472200194",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370062",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370063",
+    "title": "ZIF-based heterojunction filler enhancing Li-ion transport of composite solid-state electrolytes",
+    "authors": [
+      {
+        "name": "Jianshuai Lv"
+      },
+      {
+        "name": "Yuhang Li"
+      },
+      {
+        "name": "Ke Yang"
+      },
+      {
+        "name": "Xinyu Liu"
+      },
+      {
+        "name": "Ying Dou"
+      },
+      {
+        "name": "Zheng Zhang"
+      },
+      {
+        "name": "Danfeng Zhang"
+      },
+      {
+        "name": "Peiran Shi"
+      },
+      {
+        "name": "Ming Liu"
+      },
+      {
+        "name": "Yan-Bing He"
+      }
+    ],
+    "keywords": [
+      "ion transport",
+      "heterojunction nanoparticle",
+      "dissociation of lithium salt",
+      "solid-state battery",
+      "zeolitic imidazolate framework"
+    ],
+    "abstract": "Composite solid electrolytes (CSEs) are considered among the most promising candidates for solid-state batteries. However, their practical application is hindered by low ionic conductivity and a limited lithium-ion transference number, primarily owing to the insufficient mobility of Li+. In this work, we design a heterojunction nanoparticle composed of bimetallic zeolitic imidazolate frameworks (ZIFs) coupled with amorphous titanium oxide (TiO2@Zn/Co–ZIF) as a filler to fabricate a composite solid-state electrolyte (PVZT). The amorphous TiO2 coating facilitates salt dissociation through Lewis acid–base interactions with the anions of the lithium salt. Meanwhile, the Zn/Co–ZIF framework not only provides additional selective pathways for Li+ transport but also effectively restricts anion migration through its confined pore size. The synergistic effect results in a high room-temperature ionic conductivity (8.8 × 10−4 S·cm−1) and a lithium-ion transference number of 0.47 for PVZT. A symmetrical cell using PVZT demonstrates stable Li+ deposition/stripping for over 1100 h at a current density of 0.1 mA·cm−2. Additionally, a LiNi0.8Co0.1Mn0.1O2/Li full cell using PVZT retains 75.0% of its capacity after 1200 cycles at a 2 C rate. This work offers valuable insights into the design of functional fillers for CSEs with highly efficient ion transport.",
+    "volume": "3",
+    "issue": "2",
+    "firstpage": "9370063",
+    "lastpage": "",
+    "publication_date": "2025/6/16",
+    "online_date": "2025/6/16",
+    "received": "10 February 2025",
+    "revised": "16 April 2025",
+    "accepted": "19 April 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370063.pdf",
+    "internal_id": "1914156181075005441",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370063",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370064",
+    "title": "Suitable nanoporous materials and refrigerants for a force-induced heat pump applicable to mesoporous materials",
+    "authors": [
+      {
+        "name": "Ryosuke Shinozuka"
+      },
+      {
+        "name": "Kazuya Kanamaru"
+      },
+      {
+        "name": "Shinichiroh Iwamura"
+      },
+      {
+        "name": "Masashi Ito"
+      },
+      {
+        "name": "Masanobu Uchimura"
+      },
+      {
+        "name": "Ami Ikura"
+      },
+      {
+        "name": "Yasushi Ichikawa"
+      },
+      {
+        "name": "Kazuki Sone"
+      },
+      {
+        "name": "Hirotomo Nishihara"
+      }
+    ],
+    "keywords": [
+      "heat pump",
+      "coefficient of performance",
+      "system volume",
+      "adsorption",
+      "flexible nanoporous material"
+    ],
+    "abstract": "Although a new-class of heat pumps based on mechanically flexible nanoporous materials holds great potential for the utilization of sustainable refrigerants with a considerably high coefficient of performance (COP), reducing their system volume remains a challenge. In this study, we explored the potential of this innovative type of heat pump in terms of COP and system volume. To broaden the scope of material exploration, we devised a new thermodynamic heat pump system applicable to soft mesoporous materials, in addition to the conventional system that is suitable only for flexible microporous materials. Several key factors have been identified through the comparison of various nanoporous materials and refrigerants. Our systematic investigation reveals that the combination of mechanically softer nanoporous materials with ammonia refrigerants can achieve a high COP and a reduced system volume.",
+    "volume": "3",
+    "issue": "2",
+    "firstpage": "9370064",
+    "lastpage": "",
+    "publication_date": "2025/6/16",
+    "online_date": "2025/6/16",
+    "received": "08 March 2025",
+    "revised": "06 April 2025",
+    "accepted": "23 April 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370064.pdf",
+    "internal_id": "1914856905652047873",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370064",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370065",
+    "title": "Constructing LiF@spinel dual shell to suppress interfacial side reactions of Li-rich cathode materials",
+    "authors": [
+      {
+        "name": "Chaochao Fu"
+      },
+      {
+        "name": "Yue Zhou"
+      },
+      {
+        "name": "Guangtao Shen"
+      },
+      {
+        "name": "Hongru Wang"
+      },
+      {
+        "name": "Yiming Wang"
+      },
+      {
+        "name": "Jixue Shen"
+      },
+      {
+        "name": "Jianming Fan"
+      },
+      {
+        "name": "Zhenduo Sun"
+      }
+    ],
+    "keywords": [
+      "Li-ion battery",
+      "Li-rich oxide",
+      "LiF@spinel dual shell",
+      "interfacial side reaction"
+    ],
+    "abstract": "Li-rich oxides are considered as promising candidate cathode materials for high-energy Li-ion batteries due to their high specific capacity. However, the widespread adoption of Li-rich materials is hindered because of the lack of a stable surface structure to inhibit interfacial side reactions. In this study, a stable LiF@spinel dual shell was constructed on the surface of Li-rich materials, in which spinel is formed by in situ surface reconstruction, and LiF is bonded to the spinel through the Ni–F bond. The spinel serves as a buffer layer between the LiF coating and the Li-rich oxide, providing a three-dimensional Li-ion diffusion channel to improve the Li-ion diffusion coefficient, while the outer LiF plays a critical role in isolating the cathode from the electrolyte. Under the abovementioned dual effect, the interfacial side reactions of Li-rich materials are inhibited, thereby improving their cycle stability. The obtained LiF@spinel-coated Li-rich cathode exhibits an enhanced capacity retention of 81.5% after 150 cycles at a current density of 2 C, which is better than the pristine Li-rich sample (63.2%). These findings indicate that the construction of the LiF@spinel dual shell is a successful strategy for the modification of Li-rich materials.",
+    "volume": "3",
+    "issue": "2",
+    "firstpage": "9370065",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/19",
+    "received": "17 March 2025",
+    "revised": "21 April 2025",
+    "accepted": "23 April 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370065.pdf",
+    "internal_id": "1919927931624808449",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370065",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370069",
+    "title": "High-performance triboelectric nanogenerator based on a rotating-switch structure for efficient wind energy harvesting",
+    "authors": [
+      {
+        "name": "Juan Pan"
+      },
+      {
+        "name": "Wuliang Sun"
+      },
+      {
+        "name": "Ying Zhan"
+      },
+      {
+        "name": "Xiaoxia Lv"
+      },
+      {
+        "name": "Xin Li"
+      },
+      {
+        "name": "Yaxin Huang"
+      },
+      {
+        "name": "Baodong Chen"
+      },
+      {
+        "name": "Ding Nan"
+      }
+    ],
+    "keywords": [
+      "triboelectric nanogenerator",
+      "rotating switches",
+      "instantaneous current generation",
+      "power density",
+      "self-powered sensing systems"
+    ],
+    "abstract": "Existing nanogenerator technologies for harvesting high-power energy from wind encounter significant challenges due to limitations in current output. Here, we propose a rotating-switch triboelectric nanogenerator (RS-TENG) that uses mechanical triggering switches (on-off-on) to enhance the instantaneous current pulses during rotation. The rotating-switch in the proposed device addresses the issue of low instantaneous current output in triboelectric nanogenerators while maintaining voltage stability. At a constant rotational speed, the RS-TENG achieves an instantaneous current of 3.2 times that of its nonswitching counterpart, with an 89% reduction in response time. Furthermore, at a wind speed of 2 m·s−1, the RS-TENG achieves a wind power density of 10.4 mW·m−2·m−1·s. Additionally, by integrating the RS-TENG with energy management circuits, the nanogenerator can power wireless signal transmitters and temperature sensors, offering a self-sustaining power solution for remote wireless services. This research presents a promising technology for powering electronic devices in energy-scarce environments.",
+    "volume": "3",
+    "issue": "2",
+    "firstpage": "9370069",
+    "lastpage": "",
+    "publication_date": "2025/6/24",
+    "online_date": "2025/6/24",
+    "received": "08 April 2025",
+    "revised": "03 June 2025",
+    "accepted": "10 June 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370069.pdf",
+    "internal_id": "1932606099108249602",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370069",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370055",
+    "title": "Revisiting the core problem impeding the commercialization of silicon-based lithium-ion batteries",
+    "authors": [
+      {
+        "name": "Ye Cheng"
+      },
+      {
+        "name": "Zong Guo"
+      },
+      {
+        "name": "Chaozhen Zheng"
+      },
+      {
+        "name": "Lihan Zhang"
+      },
+      {
+        "name": "Shuwei Wang"
+      },
+      {
+        "name": "Hongda Du"
+      }
+    ],
+    "keywords": [
+      "volumetric capacity",
+      "silicon (Si)",
+      "lithium-ion battery (LIB)",
+      "anodes"
+    ],
+    "abstract": "To meet the growing demand for high-energy-density lithium-ion batteries (LIBs), silicon (Si) anodes have gained attention as a promising material for next-generation anodes owing to their ultrahigh gravimetric capacity. Nevertheless, the Si anode faces significant challenges, particularly severe volume expansion during cycling, which leads to rapid capacity degradation and greatly hinders its commercialization potential. Although extensive research has focused on mitigating volume changes and constructing stable solid-electrolyte interphases on Si-based anodes, a crucial factor for practical application, namely the volumetric capacity, has been often overlooked. For Si-based anodes to replace conventional graphite anodes, their volumetric capacity must be thoroughly evaluated. Key factors determining the volumetric capacity include gravimetric capacity, active material mass ratio, initial Coulombic efficiency, electrode swelling ratio, and the negative-to-positive capacity ratio. This paper systematically analyzes, discusses, and summarizes each of these factors in detail. Common issues with existing strategies are identified, and future research directions concerning the commercialization of Si-based anodes are outlined. This study provides a systematic and novel perspective on effectively modifying and designing Si-based anodes, aiming to promote the volumetric capacity toward the large-scale industrialization of next-generation LIBs.",
+    "volume": "3",
+    "issue": "1",
+    "firstpage": "9370055",
+    "lastpage": "",
+    "publication_date": "2025/3/25",
+    "online_date": "2025/3/25",
+    "received": "19 December 2024",
+    "revised": "08 January 2025",
+    "accepted": "14 January 2025",
+    "published": "",
+    "type": "Review",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370055.pdf",
+    "internal_id": "1879772466471620609",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370055",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370058",
+    "title": "Recent progress and challenges of self-healing batteries",
+    "authors": [
+      {
+        "name": "Zhonggui Quan"
+      },
+      {
+        "name": "Xinyi Xiu"
+      },
+      {
+        "name": "Meng Li"
+      },
+      {
+        "name": "Li Song"
+      },
+      {
+        "name": "Xuting Jin"
+      },
+      {
+        "name": "Zhen Zhou"
+      }
+    ],
+    "keywords": [
+      "self-healing batteries",
+      "gel electrolytes",
+      "high-performance electrodes",
+      "functional substrate"
+    ],
+    "abstract": "With the exponential growth of portable electronic devices and wearable technologies, batteries are currently required to deliver not only high energy density and extended cycling performance but also enhanced safety and exceptional durability. Inspired by the self-repair mechanism observed in natural systems, a self-healing strategy shows great application potential in enabling batteries to resist external physical and chemical damage. In this review, we provide a detailed exploration of the application of self-healing materials in battery components, including electrodes, electrolytes, and encapsulation layers. We also analyze the advantages and limitations of various self-healing mechanisms, highlighting their roles in optimizing battery performance. By presenting a comprehensive synthesis of existing research, the potential pathways for advancing the development of self-healing batteries are identified, as well as the key challenges and opportunities within this field. This review aims to promote the practical integration of self-healing batteries in smart and flexible electronic devices, paving the way for safer, more reliable, and long-lasting energy storage systems.",
+    "volume": "3",
+    "issue": "1",
+    "firstpage": "9370058",
+    "lastpage": "",
+    "publication_date": "2025/3/25",
+    "online_date": "2025/3/31",
+    "received": "16 January 2025",
+    "revised": "02 March 2025",
+    "accepted": "02 March 2025",
+    "published": "",
+    "type": "Review",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370058.pdf",
+    "internal_id": "1896483249708449794",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370058",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370060",
+    "title": "Lithium manganese iron phosphate materials: Design, progress, and challenges",
+    "authors": [
+      {
+        "name": "Huilong Zeng"
+      },
+      {
+        "name": "Yuanxin Wan"
+      },
+      {
+        "name": "Shuzhang Niu"
+      },
+      {
+        "name": "Xiao Yu"
+      },
+      {
+        "name": "Zerui Chen"
+      },
+      {
+        "name": "Boqiao Li"
+      },
+      {
+        "name": "Dongju Fu"
+      },
+      {
+        "name": "Peigang Han"
+      },
+      {
+        "name": "Jun Liu"
+      }
+    ],
+    "keywords": [
+      "lithium manganese iron phosphate",
+      "charging and discharging mechanism",
+      "synthesis method",
+      "modification",
+      "recycling"
+    ],
+    "abstract": "With the boom in electric vehicles (EVs), there is an increasing demand for high-performance lithium-ion batteries. Lithium manganese iron phosphate (LMFP) has emerged as an enhanced variation of LiFePO4 (LFP), offering an energy density 10%–20% greater than that of LFP. Structural distortion caused by the Jahn–Teller effect decreases the capacity and voltage platform, thus restricting the commercialization of this material. Herein, ideas to overcome these challenges, including the crystal structure of LMFP and strategies to mitigate the Jahn–Teller distortion, are first explored. Then, the migration pathways of Li+ during charging and discharging and the phase transition mechanisms that affect the material’s performance are discussed. Next, the optimal Mn:Fe ratio for achieving the desired performance is described. The influences of various synthesis and modification methods on the morphology and structure of LMFP are reviewed. Additionally, different modification techniques, such as doping and coating, to enhance the performance of LMFP are highlighted. Finally, an overview of the current state of research on the recycling and reuse of LMFP is provided. By addressing these key topics, this paper offers a theoretical foundation for the further development of LMFP, thus contributing to its eventual commercialization.",
+    "volume": "3",
+    "issue": "1",
+    "firstpage": "9370060",
+    "lastpage": "",
+    "publication_date": "2025/3/25",
+    "online_date": "2025/3/31",
+    "received": "13 February 2025",
+    "revised": "08 March 2025",
+    "accepted": "09 March 2025",
+    "published": "",
+    "type": "Review",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370060.pdf",
+    "internal_id": "1899020223036080130",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370060",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370056",
+    "title": "Facile modification using organic acid molecules to neutralize residual alkaline compounds for stabilizing LiNi0.95Co0.04Mn0.01O2 cathode material",
+    "authors": [
+      {
+        "name": "Chao Zhao"
+      },
+      {
+        "name": "Xiangshao Yin"
+      },
+      {
+        "name": "Yuanyuan Huang"
+      },
+      {
+        "name": "Xinyu Zhang"
+      },
+      {
+        "name": "Weihong Jiang"
+      },
+      {
+        "name": "Zhuo Zhou"
+      },
+      {
+        "name": "Wenhui Tu"
+      },
+      {
+        "name": "Xianshu Wang"
+      },
+      {
+        "name": "Ding Wang"
+      },
+      {
+        "name": "Jianguo Duan"
+      }
+    ],
+    "keywords": [
+      "lithium-ion battery",
+      "ultrahigh-nickel layered oxide cathode",
+      "residual alkaline compounds",
+      "organic molecule",
+      "neutralization"
+    ],
+    "abstract": "The presence of residual alkaline compounds in the ultrahigh-nickel layered oxide cathodes (LiNixCoyMn1−x−yO2, x ≥ 0.9) aggravates structural degradation, increases surface reactivity, and promotes slurry gelation, leading to the capacity decay of batteries with these cathodes and complicating their manufacturing. Traditional approaches for addressing this issue, including direct removal, coverage, and utilization, are complex and require surface regeneration. Herein, we propose neutralizing residual alkaline compounds with 3-thiopheneboronic acid (3-TBA) to improve the performance of LiNi0.95Co0.04Mn0.01O2 (NCM) cathode material, a facile strategy that does not require any post-treatment. The suggested reaction yields a uniform and thin organic-modified layer on the surface of the NCM cathode, improving its chemical stability toward the electrolyte, as demonstrated by multiple characterization methods. The modified NCM cathode exhibited impressive cyclic and rate performances, achieving a capacity retention of 83.34% after 200 cycles at 1.0 C and a specific capacity of 162.00 mAh·g−1 at 10.0 C. Most importantly, the proposed approach can efficiently suppress unfavorable phase transitions, severe electrolyte degradation, and CO2 gas evolution, improving the application potential of ultrahigh-nickel layered oxide cathode materials.",
+    "volume": "3",
+    "issue": "1",
+    "firstpage": "9370056",
+    "lastpage": "",
+    "publication_date": "2025/3/25",
+    "online_date": "2025/3/21",
+    "received": "26 December 2024",
+    "revised": "06 February 2025",
+    "accepted": "14 February 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370056.pdf",
+    "internal_id": "1891298778453491714",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370056",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370057",
+    "title": "Laboratory-based X-ray diffractometer with fast time resolution for operando battery studies",
+    "authors": [
+      {
+        "name": "Zhenzhong Li"
+      },
+      {
+        "name": "Chao Wang"
+      },
+      {
+        "name": "Fanqiang Meng"
+      },
+      {
+        "name": "Zhou Zhou"
+      },
+      {
+        "name": "Lei Li"
+      },
+      {
+        "name": "Chunzhen Yang"
+      },
+      {
+        "name": "Dongbai Sun"
+      }
+    ],
+    "keywords": [
+      "X-ray diffractometer",
+      "metal-jet X-ray source",
+      "extreme fast-charging battery",
+      "structure evolution",
+      "device assembly"
+    ],
+    "abstract": "Operando X-ray diffraction (XRD) is an important characterization tool for real-time monitoring of structural changes in materials under different reaction conditions. In this study, we developed a laboratory-based diffractometer that could capture a full XRD spectrum within 10 s. The instrument has several advanced features. First, it uses a Ga–In alloy metal-jet X-ray source, thereby achieving high X-ray flux with a brightness of up to 3.0 × 1010 photons/(s·mm2·mrad2). Second, it employs an ellipsoidal mirror with a multilayer coating to produce quasi-parallel monochromatic light characterized by a divergence of 0.6 mrad and an energy resolution of 5.9 × 10−3. Third, it is equipped with a high-efficiency, high-signal-to-noise-ratio Pilatus 3R 1M detector for collecting diffraction signals. These features make the developed instrument applicable in studying rapid phase transitions in lithium-ion batteries, especially under extremely fast charge–discharge conditions. The data quality was comparable to that of synchrotron radiation XRD.",
+    "volume": "3",
+    "issue": "1",
+    "firstpage": "9370057",
+    "lastpage": "",
+    "publication_date": "2025/3/25",
+    "online_date": "2025/3/31",
+    "received": "13 December 2024",
+    "revised": "16 February 2025",
+    "accepted": "26 February 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370057.pdf",
+    "internal_id": "1894675717281136642",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370057",
+    "year": 2025,
+    "pdf_springer": ""
+  },
+  {
+    "doi": "10.26599/EMD.2025.9370059",
+    "title": "Reconstruction of lithium replenishment channel with an amorphous structure for efficient regeneration of spent LiCoO2 cathodes",
+    "authors": [
+      {
+        "name": "Yang Cao"
+      },
+      {
+        "name": "Junfeng Li"
+      },
+      {
+        "name": "Haotian Qu"
+      },
+      {
+        "name": "Haocheng Ji"
+      },
+      {
+        "name": "Lingshu Li"
+      },
+      {
+        "name": "Xijun Wei"
+      },
+      {
+        "name": "Guangmin Zhou"
+      }
+    ],
+    "keywords": [
+      "lithium-ion battery (LIB)",
+      "amorphous structure",
+      "ball milling",
+      "regeneration"
+    ],
+    "abstract": "Lithium-ion batteries with LiCoO2 (LCO) cathodes are widely used in various electronic devices, resulting in a large amount of spent LCO (SLCO). Therefore, there is an urgent need for an efficient technique for recycling SLCO. However, due to the presence of cobalt oxide with a spinel phase on the surface of highly-degraded LCO, the strong electrostatic repulsion from the transition metal octahedron poses a high Li replenishment barrier, making the regeneration of highly-degraded LCO a challenge. Herein, we propose a structural transformation strategy for reconstructing Li replenishment channels to aid the direct regeneration of highly-degraded LCO. In this approach, ball milling is employed to disrupt the inherent structure of highly-degraded LCO, thereby releasing the internal stress and converting the surface spinel phase into a homogeneous amorphous structure, which promotes Li insertion and regeneration. The regenerated LCO (RLCO) exhibits an outstanding discharge capacity of 179.10 mAh·g−1 in the voltage range of 3.0–4.5 V at 0.5 C. The proposed strategy is an effective regeneration approach for highly-degraded LCO, thereby facilitating the efficient recycling of spent lithium-ion battery cathode materials.",
+    "volume": "3",
+    "issue": "1",
+    "firstpage": "9370059",
+    "lastpage": "",
+    "publication_date": "2025/3/26",
+    "online_date": "2025/3/26",
+    "received": "05 February 2025",
+    "revised": "01 March 2025",
+    "accepted": "08 March 2025",
+    "published": "",
+    "type": "Research Article",
+    "publisher": "清华大学出版社",
+    "issn": "3005-3315",
+    "language": "en",
+    "pdf_url": "https://www.sciopen.com/local/article_pdf/10.26599/EMD.2025.9370059.pdf",
+    "internal_id": "1899012875789877249",
+    "url": "https://www.sciopen.com/article/10.26599/EMD.2025.9370059",
+    "year": 2025,
+    "pdf_springer": ""
+  }
+]
