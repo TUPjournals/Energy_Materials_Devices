@@ -511,6 +511,9 @@ function fillFilters() {
   [...types].sort().forEach(t => {
     const o = document.createElement('option'); o.value = t; o.textContent = t; $type.appendChild(o);
   });
+  [...areas].sort().forEach(ar => {
+    const o = document.createElement('option'); o.value = ar; o.textContent = ar; $area.appendChild(o);
+  });
 }
 
 let currentQuery = '';
@@ -518,7 +521,7 @@ let currentQuery = '';
 function applyFilters() {
   const q = $search.value.trim();
   currentQuery = q;
-  const yv = $year.value, tv = $type.value;
+  const yv = $year.value, tv = $type.value, av = $area.value;
   filteredArticles = allArticles
     .map(a => {
       if (yv && a.year != yv) return null;
