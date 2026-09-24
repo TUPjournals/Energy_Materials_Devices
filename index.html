@@ -779,23 +779,43 @@ function generateBibTeX(a) {
   const first_author = (a.authors?.[0]?.name || 'Unknown').split(/\s+/).pop() || 'Unknown';
   const year = a.year || '2026';
   const key = first_author + year;
-  const authors_bib = (a.authors||[]).map(au => {
-    const parts = (au.name || '').trim().split(/\s+/);
-    return parts.length >= 2 ? parts[-1] + ', ' + parts.slice(0,-1).join(' ') : au.name;
-  }).join(' and ');
-  let bib = '@article{' + key + ',\n';
-  bib += '  author = {' + authors_bib + '},\n';
-  bib += '  title = {' + (a.title || '') + '},\n';
-  bib += '  year = {' + year + '},\n';
-  bib += '  journal = {Energy Materials and Devices},\n';
-  if (a.volume) bib += '  volume = {' + a.volume + '},\n';
-  if (a.issue) bib += '  number = {' + a.issue + '},\n';
-  if (a.firstpage && a.lastpage) bib += '  pages = {' + a.firstpage + '-' + a.lastpage + '},\n';
-  if (a.doi) {
-    bib += '  doi = {' + a.doi + '},\n';
-    bib += '  url = {https://doi.org/' + a.doi + '},\n';
+  const authors_bib = (a.authors||[]).map(au => au.name || '').join(' and ');
+  let bib = '@article{' + key + ', 
+\n';
+  bib += '  author = {' + authors_bib + '},
+\n';
+  bib += '  title = {' + (a.title || '') + '},
+\n';
+  bib += '  year = {' + year + '},
+\n';
+  bib += '  journal = {Energy Materials and Devices},
+\n';
+  if (a.volume) bib += '  volume = {' + a.volume + '},
+\n';
+  if (a.issue) bib += '  number = {' + a.issue + '},
+\n';
+  if (a.firstpage) {
+    if (a.lastpage && a.lastpage !== a.firstpage) {
+      bib += '  pages = {' + a.firstpage + '-' + a.lastpage + '},
+\n';
+    } else {
+      bib += '  pages = {' + a.firstpage + '},
+\n';
+    }
   }
-  if (a.keywords && a.keywords.length) bib += '  keywords = {' + a.keywords.join(', ') + '},\n';
+  if (a.keywords && a.keywords.length) bib += '  keywords = {' + a.keywords.join(', ') + '},
+\n';
+  if (a.doi) {
+    bib += '  url = {https://www.sciopen.com/article/' + a.doi + '},
+\n';
+    bib += '  doi = {' + a.doi + '},
+\n';
+  }
+  if (a.abstract) {
+    const abs = a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+    bib += '  abstract = {' + abs + '},
+\n';
+  }
   bib += '}';
   return bib;
 }
