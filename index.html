@@ -448,6 +448,7 @@ body {
     </div>
     <select class="filter-select" id="yearFilter"><option value="">All Years</option></select>
     <select class="filter-select" id="typeFilter"><option value="">All Types</option></select>
+    <select class="filter-select" id="areaFilter"><option value="">All Research Areas</option></select>
   </div>
 </section>
 
@@ -471,6 +472,7 @@ let filteredArticles = [];
 const $search = document.getElementById('searchInput');
 const $year = document.getElementById('yearFilter');
 const $type = document.getElementById('typeFilter');
+const $area = document.getElementById('areaFilter');
 const $list = document.getElementById('articleList');
 const $stats = document.getElementById('statsRow');
 
@@ -501,6 +503,7 @@ function fillFilters() {
   allArticles.forEach(a => { 
     if (a.year) years.add(a.year); 
     if (a.type) types.add(a.type);
+    (a.research_area||[]).forEach(ar => areas.add(ar));
   });
   [...years].sort((a,b)=>b-a).forEach(y => {
     const o = document.createElement('option'); o.value = y; o.textContent = y; $year.appendChild(o);
@@ -520,6 +523,7 @@ function applyFilters() {
     .map(a => {
       if (yv && a.year != yv) return null;
       if (tv && a.type !== tv) return null;
+      if (av && !(a.research_area||[]).includes(av)) return null;
       const score = searchScore(a, q);
       if (q && score === 0) return null;
       return { ...a, _score: score, _q: q };
@@ -572,6 +576,7 @@ function searchScore(a, q) {
       { v: a.title || '', w: 10 },
       { v: (a.authors||[]).map(x=>x.name).join(' ') || '', w: 5 },
       { v: (a.keywords||[]).join(' ') || '', w: 4 },
+      { v: (a.research_area||[]).join(' ') || '', w: 3 },
       { v: a.abstract || '', w: 1 },
     ];
     let best = 0;
@@ -620,6 +625,7 @@ function render() {
       </div>
       <div class="card-authors">${shortNames}</div>
       ${kws ? `<div class="card-keywords">${kws}</div>` : ''}
+      ${(a.research_area||[]).length > 0 ? `<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>${a.research_area.map(ar => `<span class="kw" style="background:#fff3e0;color:#e65100;font-weight:600">${esc(ar)}</span>`).join(' ')}</div>` : ''}
       ${a.doi ? `<div class="card-doi"><a href="https://doi.org/${a.doi}" target="_blank" onclick="event.stopPropagation()">https://doi.org/${esc(a.doi)}</a></div>` : ''}
       ${a.doi ? `
       <div class="card-cite" onclick="event.stopPropagation()">
@@ -817,6 +823,7 @@ function esc(s) {
 $search.addEventListener('input', debounce(applyFilters, 300));
 $year.addEventListener('change', applyFilters);
 $type.addEventListener('change', applyFilters);
+$area.addEventListener('change', applyFilters);
 
 function debounce(fn, ms) {
   let t;
