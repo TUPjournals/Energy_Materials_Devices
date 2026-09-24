@@ -6,19 +6,19 @@
 <title>Energy Materials and Devices</title>
 <style>
 :root {
-  --bg: #faf5ff;
+  --bg: #faf6fc;
   --card: #ffffff;
   --primary: #8e44ad;
   --primary-dark: #4a148c;
   --accent: #9b59b6;
-  --accent-light: #f3e5f5;
+  --accent-light: #ede7f6;
   --accent-bg: #f3e5f5;
-  --text: #3d1a6e;
-  --text-muted: #7e57c2;
-  --border: #e1bee7;
+  --text: #3b2145;
+  --text-muted: #7a6a8a;
+  --border: #e4d5ec;
   --radius: 12px;
-  --shadow: 0 1px 3px rgba(142,68,173,0.06), 0 4px 12px rgba(142,68,173,0.04);
-  --shadow-hover: 0 4px 12px rgba(142,68,173,0.1), 0 8px 24px rgba(142,68,173,0.06);
+  --shadow: 0 1px 3px rgba(74,20,140,0.06), 0 4px 12px rgba(74,20,140,0.04);
+  --shadow-hover: 0 4px 12px rgba(74,20,140,0.1), 0 8px 24px rgba(74,20,140,0.06);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,13 +33,13 @@ body {
 
 /* Header */
 .header {
-  background: linear-gradient(135deg, #4a148c 0%, #7b1fa2 50%, #9c27b0 100%);
+  background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 50%, #af7ac5 100%);
   color: #fff;
   padding: 28px 0 24px;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 20px rgba(74,20,140,0.25);
+  box-shadow: 0 2px 20px rgba(142,68,173,0.25);
 }
 .header-inner {
   max-width: 1200px;
@@ -83,7 +83,7 @@ body {
 .search-wrap input:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(230,126,34,0.12);
+  box-shadow: 0 0 0 3px rgba(155,89,182,0.12);
 }
 .search-wrap .icon {
   position: absolute;
@@ -127,7 +127,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  box-shadow: 0 1px 2px rgba(142,68,173,0.04);
+  box-shadow: 0 1px 2px rgba(74,20,140,0.04);
 }
 .stat-chip strong { color: #8e44ad; font-size: 1rem; }
 .stat-chip .dot { width: 6px; height: 6px; border-radius: 50%; background: #8e44ad; }
@@ -206,7 +206,7 @@ body {
 
 .card-authors {
   font-size: 0.84rem;
-  color: #8d6e63;
+  color: #85709c;
   margin-top: 8px;
   line-height: 1.5;
   max-width: 700px;
@@ -276,7 +276,7 @@ body {
 .d-item { font-size: 0.83rem; }
 .d-item label {
   display: block;
-  color: #a1887f;
+  color: #a390bb;
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.3px;
@@ -328,7 +328,7 @@ body {
   word-break: break-word;
 }
 .d-cite-copy {
-  background: #2980b9;
+  background: #8e44ad;
   color: #fff;
   border: none;
   padding: 5px 12px;
@@ -338,7 +338,7 @@ body {
   white-space: nowrap;
   transition: background 0.2s;
 }
-.d-cite-copy:hover { background: #1a5276; }
+.d-cite-copy:hover { background: #4a148c; }
 .d-cite-copy.copied { background: #27ae60; }
 
 .card-doi {
@@ -348,7 +348,7 @@ body {
   word-break: break-all;
 }
 .card-doi a {
-  color: #2980b9;
+  color: #8e44ad;
   text-decoration: none;
 }
 .card-doi a:hover {
@@ -448,7 +448,6 @@ body {
     </div>
     <select class="filter-select" id="yearFilter"><option value="">All Years</option></select>
     <select class="filter-select" id="typeFilter"><option value="">All Types</option></select>
-    <select class="filter-select" id="areaFilter"><option value="">All Research Areas</option></select>
   </div>
 </section>
 
@@ -472,7 +471,6 @@ let filteredArticles = [];
 const $search = document.getElementById('searchInput');
 const $year = document.getElementById('yearFilter');
 const $type = document.getElementById('typeFilter');
-const $area = document.getElementById('areaFilter');
 const $list = document.getElementById('articleList');
 const $stats = document.getElementById('statsRow');
 
@@ -499,20 +497,16 @@ async function loadData() {
 
 /* ── Filters ── */
 function fillFilters() {
-  const years = new Set(), types = new Set(), areas = new Set();
+  const years = new Set(), types = new Set();
   allArticles.forEach(a => { 
     if (a.year) years.add(a.year); 
     if (a.type) types.add(a.type);
-    (a.research_area||[]).forEach(ar => areas.add(ar));
   });
   [...years].sort((a,b)=>b-a).forEach(y => {
     const o = document.createElement('option'); o.value = y; o.textContent = y; $year.appendChild(o);
   });
   [...types].sort().forEach(t => {
     const o = document.createElement('option'); o.value = t; o.textContent = t; $type.appendChild(o);
-  });
-  [...areas].sort().forEach(ar => {
-    const o = document.createElement('option'); o.value = ar; o.textContent = ar; $area.appendChild(o);
   });
 }
 
@@ -521,12 +515,11 @@ let currentQuery = '';
 function applyFilters() {
   const q = $search.value.trim();
   currentQuery = q;
-  const yv = $year.value, tv = $type.value, av = $area.value;
+  const yv = $year.value, tv = $type.value;
   filteredArticles = allArticles
     .map(a => {
       if (yv && a.year != yv) return null;
       if (tv && a.type !== tv) return null;
-      if (av && !(a.research_area||[]).includes(av)) return null;
       const score = searchScore(a, q);
       if (q && score === 0) return null;
       return { ...a, _score: score, _q: q };
@@ -579,7 +572,6 @@ function searchScore(a, q) {
       { v: a.title || '', w: 10 },
       { v: (a.authors||[]).map(x=>x.name).join(' ') || '', w: 5 },
       { v: (a.keywords||[]).join(' ') || '', w: 4 },
-      { v: (a.research_area||[]).join(' ') || '', w: 3 },
       { v: a.abstract || '', w: 1 },
     ];
     let best = 0;
@@ -628,7 +620,6 @@ function render() {
       </div>
       <div class="card-authors">${shortNames}</div>
       ${kws ? `<div class="card-keywords">${kws}</div>` : ''}
-      ${(a.research_area||[]).length > 0 ? `<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>${a.research_area.map(ar => `<span class="kw" style="background:#fff3e0;color:#e65100;font-weight:600">${esc(ar)}</span>`).join(' ')}</div>` : ''}
       ${a.doi ? `<div class="card-doi"><a href="https://doi.org/${a.doi}" target="_blank" onclick="event.stopPropagation()">https://doi.org/${esc(a.doi)}</a></div>` : ''}
       ${a.doi ? `
       <div class="card-cite" onclick="event.stopPropagation()">
@@ -641,13 +632,13 @@ function render() {
         <div class="detail-grid">
           ${a.doi ? `<div class="d-item"><label>DOI</label><span>${esc(a.doi)}</span></div>` : ''}
           ${a.volume ? `<div class="d-item"><label>Volume(Issue)</label><span>${a.volume}(${a.issue})</span></div>` : ''}
-          ${a.firstpage ? `<div class="d-item"><label>${a.lastpage && a.lastpage !== a.firstpage ? "Pages" : "Article number"}</label><span>${a.lastpage && a.lastpage !== a.firstpage ? a.firstpage + "-" + a.lastpage : a.firstpage}</span></div>` : ''}
+          ${a.firstpage ? `<div class="d-item"><label>Pages</label><span>${a.firstpage}${a.lastpage ? '-' + a.lastpage : ''}</span></div>` : ''}
           ${a.publication_date ? `<div class="d-item"><label>Published</label><span>${esc(a.publication_date)}</span></div>` : ''}
         </div>
         ${a.abstract ? `<div class="d-abstract"><strong>Abstract:</strong> ${highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery)}</div>` : ''}
         <div class="d-links">
           ${a.doi ? `<a href="https://doi.org/${a.doi}" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>` : ''}
-          ${a.pdf_springer ? `<a href="${a.pdf_springer}" target="_blank" onclick="event.stopPropagation()">Download PDF (Springer) →</a>` : ''}
+          ${a.pdf_url ? `<a href="${a.pdf_url}" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>` : ''}
         </div>
       </div>
     </div>`;
@@ -690,7 +681,7 @@ function getCiteText(a) {
   const year = a.year || '';
   const title = (a.title || '').replace(/<[^>]+>/g, '');
   const volIssue = (a.volume || a.issue) ? `${a.volume||''}(${a.issue||''})` : '';
-  const pages = (a.firstpage && a.lastpage && a.lastpage !== a.firstpage) ? `${a.firstpage}-${a.lastpage}` : (a.firstpage || '');
+  const pages = a.firstpage ? (a.lastpage ? `${a.firstpage}-${a.lastpage}` : a.firstpage) : '';
   const doiUrl = `https://doi.org/${a.doi || ''}`;
   return `${authorStr}. ${title}. Energy Materials and Devices, ${year}, ${volIssue}: ${pages}. ${doiUrl}`;
 }
@@ -755,13 +746,13 @@ function downloadRIS(idx) {
   ris.push('JO  - Energy Materials and Devices');
   ris.push('SN  - 3005-3315');
   if (a.firstpage) ris.push('SP  - ' + a.firstpage);
-  if (a.lastpage && a.lastpage !== a.firstpage) ris.push('EP  - ' + a.lastpage);
+  if (a.lastpage) ris.push('EP  - ' + a.lastpage);
   if (a.volume) ris.push('VL  - ' + a.volume);
   if (a.issue) ris.push('IS  - ' + a.issue);
   if (a.abstract) ris.push('AB  - ' + a.abstract.replace(/<[^>]+>/g, '').replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16))).replace(/\\\//g,'/').replace(/\\\\/g,'\\').replace(/\s+/g,' ').trim());
   if (a.doi) ris.push('UR  - https://doi.org/' + a.doi);
   if (a.doi) ris.push('DO  - ' + a.doi);
-  const fn = (a.doi||'ECMF').replace(/[/\\]/g,'_') + '.ris';
+  const fn = (a.doi||'EMD').replace(/[/\\]/g,'_') + '.ris';
   download(ris.join('\r\n') + '\r\n', fn, 'application/x-research-info-systems;charset=utf-8;');
 }
 
@@ -788,30 +779,23 @@ function generateBibTeX(a) {
   const first_author = (a.authors?.[0]?.name || 'Unknown').split(/\s+/).pop() || 'Unknown';
   const year = a.year || '2026';
   const key = first_author + year;
-  const authors_bib = (a.authors||[]).map(au => au.name || '').join(' and ');
-  let bib = '@article{' + key + ', \r\n';
-  bib += 'author = {' + authors_bib + '},\r\n';
-  bib += 'title = {' + (a.title || '') + '},\r\n';
-  bib += 'year = {' + year + '},\r\n';
-  bib += 'journal = {Energy Materials and Devices},\r\n';
-  if (a.volume) bib += 'volume = {' + a.volume + '},\r\n';
-  if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
-  if (a.firstpage) {
-    if (a.lastpage && a.lastpage !== a.firstpage) {
-      bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
-    } else {
-      bib += 'pages = {' + a.firstpage + '},\r\n';
-    }
-  }
-  if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
+  const authors_bib = (a.authors||[]).map(au => {
+    const parts = (au.name || '').trim().split(/\s+/);
+    return parts.length >= 2 ? parts[parts.length-1] + ', ' + parts.slice(0,-1).join(' ') : au.name;
+  }).join(' and ');
+  let bib = '@article{' + key + ',\n';
+  bib += '  author = {' + authors_bib + '},\n';
+  bib += '  title = {' + (a.title || '') + '},\n';
+  bib += '  year = {' + year + '},\n';
+  bib += '  journal = {Energy Materials and Devices},\n';
+  if (a.volume) bib += '  volume = {' + a.volume + '},\n';
+  if (a.issue) bib += '  number = {' + a.issue + '},\n';
+  if (a.firstpage) bib += '  pages = {' + a.firstpage + (a.lastpage ? '-' + a.lastpage : '') + '},\n';
   if (a.doi) {
-    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
-    bib += 'doi = {' + a.doi + '},\r\n';
+    bib += '  doi = {' + a.doi + '},\n';
+    bib += '  url = {https://doi.org/' + a.doi + '},\n';
   }
-  if (a.abstract) {
-    const abs = a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-    bib += 'abstract = {' + abs + '},\r\n';
-  }
+  if (a.keywords && a.keywords.length) bib += '  keywords = {' + a.keywords.join(', ') + '},\n';
   bib += '}';
   return bib;
 }
@@ -826,7 +810,6 @@ function esc(s) {
 $search.addEventListener('input', debounce(applyFilters, 300));
 $year.addEventListener('change', applyFilters);
 $type.addEventListener('change', applyFilters);
-$area.addEventListener('change', applyFilters);
 
 function debounce(fn, ms) {
   let t;
