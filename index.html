@@ -632,7 +632,7 @@ function render() {
         <div class="detail-grid">
           ${a.doi ? `<div class="d-item"><label>DOI</label><span>${esc(a.doi)}</span></div>` : ''}
           ${a.volume ? `<div class="d-item"><label>Volume(Issue)</label><span>${a.volume}(${a.issue})</span></div>` : ''}
-          ${a.firstpage ? `<div class="d-item"><label>Pages</label><span>${a.firstpage}-${a.lastpage}</span></div>` : ''}
+          ${a.firstpage ? `<div class="d-item"><label>${a.lastpage && a.lastpage !== a.firstpage ? "Pages" : "Article number"}</label><span>${a.lastpage && a.lastpage !== a.firstpage ? a.firstpage + "-" + a.lastpage : a.firstpage}</span></div>` : ''}
           ${a.publication_date ? `<div class="d-item"><label>Published</label><span>${esc(a.publication_date)}</span></div>` : ''}
         </div>
         ${a.abstract ? `<div class="d-abstract"><strong>Abstract:</strong> ${highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery)}</div>` : ''}
@@ -681,7 +681,7 @@ function getCiteText(a) {
   const year = a.year || '';
   const title = (a.title || '').replace(/<[^>]+>/g, '');
   const volIssue = (a.volume || a.issue) ? `${a.volume||''}(${a.issue||''})` : '';
-  const pages = (a.firstpage && a.lastpage) ? `${a.firstpage}-${a.lastpage}` : '';
+  const pages = (a.firstpage && a.lastpage && a.lastpage !== a.firstpage) ? `${a.firstpage}-${a.lastpage}` : (a.firstpage || '');
   const doiUrl = `https://doi.org/${a.doi || ''}`;
   return `${authorStr}. ${title}. Energy Materials and Devices, ${year}, ${volIssue}: ${pages}. ${doiUrl}`;
 }
@@ -746,7 +746,7 @@ function downloadRIS(idx) {
   ris.push('JO  - Energy Materials and Devices');
   ris.push('SN  - 3005-3315');
   if (a.firstpage) ris.push('SP  - ' + a.firstpage);
-  if (a.lastpage) ris.push('EP  - ' + a.lastpage);
+  if (a.lastpage && a.lastpage !== a.firstpage) ris.push('EP  - ' + a.lastpage);
   if (a.volume) ris.push('VL  - ' + a.volume);
   if (a.issue) ris.push('IS  - ' + a.issue);
   if (a.abstract) ris.push('AB  - ' + a.abstract.replace(/<[^>]+>/g, '').replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16))).replace(/\\\//g,'/').replace(/\\\\/g,'\\').replace(/\s+/g,' ').trim());
