@@ -780,41 +780,28 @@ function generateBibTeX(a) {
   const year = a.year || '2026';
   const key = first_author + year;
   const authors_bib = (a.authors||[]).map(au => au.name || '').join(' and ');
-  let bib = '@article{' + key + ', 
-\n';
-  bib += '  author = {' + authors_bib + '},
-\n';
-  bib += '  title = {' + (a.title || '') + '},
-\n';
-  bib += '  year = {' + year + '},
-\n';
-  bib += '  journal = {Energy Materials and Devices},
-\n';
-  if (a.volume) bib += '  volume = {' + a.volume + '},
-\n';
-  if (a.issue) bib += '  number = {' + a.issue + '},
-\n';
+  let bib = '@article{' + key + ', \r\n';
+  bib += '  author = {' + authors_bib + '},\r\n';
+  bib += '  title = {' + (a.title || '') + '},\r\n';
+  bib += '  year = {' + year + '},\r\n';
+  bib += '  journal = {Energy Materials and Devices},\r\n';
+  if (a.volume) bib += '  volume = {' + a.volume + '},\r\n';
+  if (a.issue) bib += '  number = {' + a.issue + '},\r\n';
   if (a.firstpage) {
     if (a.lastpage && a.lastpage !== a.firstpage) {
-      bib += '  pages = {' + a.firstpage + '-' + a.lastpage + '},
-\n';
+      bib += '  pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
     } else {
-      bib += '  pages = {' + a.firstpage + '},
-\n';
+      bib += '  pages = {' + a.firstpage + '},\r\n';
     }
   }
-  if (a.keywords && a.keywords.length) bib += '  keywords = {' + a.keywords.join(', ') + '},
-\n';
+  if (a.keywords && a.keywords.length) bib += '  keywords = {' + a.keywords.join(', ') + '},\r\n';
   if (a.doi) {
-    bib += '  url = {https://www.sciopen.com/article/' + a.doi + '},
-\n';
-    bib += '  doi = {' + a.doi + '},
-\n';
+    bib += '  url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
+    bib += '  doi = {' + a.doi + '},\r\n';
   }
   if (a.abstract) {
     const abs = a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-    bib += '  abstract = {' + abs + '},
-\n';
+    bib += '  abstract = {' + abs + '},\r\n';
   }
   bib += '}';
   return bib;
